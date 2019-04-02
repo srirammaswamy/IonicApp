@@ -1,0 +1,25 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+</ion-content>
+ -->
+ <ion-header>
+  <ion-navbar class="nav">
+      			<ion-title class="title" float-left>Find Bus Stops
+    			</ion-title>
+    		<ion-icon id="bus" name="bus" style="font-size: 1em;" float-right></ion-icon>
+    		<ion-toggle (ionChange)="toggle()" checked="false" name="legolas" id="toggle" float-right>Hello</ion-toggle>
+    		<ion-icon id="loc" (click)="pointGPS();" name="locate" float-right></ion-icon>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div id="map" style="width:100%; height:100%;"></div>
+</ion-content>

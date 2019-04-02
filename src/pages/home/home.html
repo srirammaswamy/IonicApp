@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+   <!-- <ion-list>
+   <ion-item>
+     <ion-input type="text" placeholder="Starting place" [(ngModel)]="this.desire.start">Starting place</ion-input>
+     
+     </ion-item>
+     <ion-item>
+        <ion-input type="text" placeholder="Destination place" [(ngModel)]="this.desire.destination">Destination place</ion-input>
+     </ion-item>
+ </ion-list>
+ <button ion-button round color='danger' (click)="showRoutes()">Show Routes</button>    !--> 
+ 
+   <ion-label>From:</ion-label>
+<!--    <ion-icon (click)="showRoutes();" id="map" name="map" float-right></ion-icon>  !-->  
+    <ion-item>
+  <select-searchable
+    item-content
+    [(ngModel)]="stop"
+    [items]="aoo"
+    itemValueField="id"
+    itemTextField="name"
+    [canSearch]="true"
+
+    (onChange)="stopChanged($event)">
+  </select-searchable>
+</ion-item>
+<button ion-button color="posiive" round float-right outline><ion-icon name="map"></ion-icon></button>
+
+<br><br>
+<ion-label>To:</ion-label>
+<ion-item>
+  <select-searchable
+    item-content
+    [(ngModel)]="stop1"
+    [items]="aoo"
+    itemValueField="id"
+    itemTextField="name"
+    [canSearch]="true"
+    (onChange)="stopChanged($event)">
+  </select-searchable>
+ <!--  <ion-icon (click)="showRoutes();" name="map"></ion-icon>  !-->
+</ion-item>
+<button ion-button color="positive" round float-right outline><ion-icon name="map"></ion-icon></button>
+<br>
+<br>
+<br>
+
+  <button ion-button round (click)="showroutes()" float-center>Show Routes</button>
+ <!-- <button ion-button round (click)="busname()" id="bb">Bus</button>   !-->
+  <button ion-button round (click)="showBuses()" float-right>Show Buses</button>
+
+  
+
+</ion-content>
