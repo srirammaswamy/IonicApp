@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-nativegeocoder",
+      "/media/sda2/Ubuntu/Home/myApp"
+    ]
+  ],
+  "_from": "cordova-plugin-nativegeocoder@latest",
+  "_id": "cordova-plugin-nativegeocoder@3.1.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-nativegeocoder",
+  "_nodeVersion": "8.9.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-nativegeocoder_3.1.2_1531213391558_0.10328115295324447"
+  },
+  "_npmUser": {
+    "email": "mail.sebastianbaar@gmail.com",
+    "name": "sebastianbaar"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-nativegeocoder",
+    "raw": "cordova-plugin-nativegeocoder",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-nativegeocoder/-/cordova-plugin-nativegeocoder-3.1.2.tgz",
+  "_shasum": "969556203852af09ef2fb65f6b65ba7a7e4fa58a",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-nativegeocoder",
+  "_where": "/media/sda2/Ubuntu/Home/myApp",
+  "author": {
+    "name": "Sebastian Baar"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastianbaar/cordova-plugin-nativegeocoder/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-nativegeocoder",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova plugin for native forward and reverse geocoding",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 10,
+    "integrity": "sha512-sl7B28nLkqxzsRYg4T9dsY8NqP3Q7ClLsmy7m+tt7qOCAf76ogFdumWJ+Vr9IsPNGA8WXiaOvdqJydtnZ7dlYg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbRHZPCRA9TVsSAnZWagAAN0kP/A2a72INeSge+ASsV/27\nT/5QBCnAS6wnK1EPk21GCs0fk92NTg4HoyNqR09Spqgd7343upR5ZQQPZKZu\n/OXveqvA/1DRkCb3Jge7fMfquRlqytFEQVEE1QVI5vqZ/ot2RXaBMuukOsJB\n8P5pAEx696xRX2wZZcDP29gBbOhEzOuSBY43MoknsHhy4XO9cQQ3p8nroxkj\nzIryLESWcdXYItQ5FS05wZZnI0YqezlgBi84K4ijyFh9JEnTHiGd+dGTgfU+\nkwyXCLVE/zdqKB0Dnp+PcFHjYKn6b8jTVptucIhdBCWhntVOidMA2wjlTBg2\nSOje8pS3FNtHnjcixrTvC3eVOXvMxFfVXd2FwxvAHr5xD0Bvvf0TUZda2EI+\n60n2ya86LtZOeBJhXzZBrf0N/6hINWX6C5qE7WtNk/IkBqXXbhKYAhTMqERh\nPs8d5SF+szBXvokzmq1ACuAMbrxWX/MD6Ia8bK2a8o4e27sGY23nhpgfqpTs\nw2/k2pwJPJgaUh45qonsqYETKXn+6EHtqprERpULkpZmOvs6OaGnDgFKOUVv\nlaqFvkFeaCVkNDKdMcaYQb2C7cG3kEUyoPudgYFhssJe6noUqCYOrI+tLuh3\nLIZP/TrPsf7egMDkNliD3nX6g7bERvacuVvIqZphL1n6qHvHP3wJj0y2bDZX\n9eaf\r\n=HDn/\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "969556203852af09ef2fb65f6b65ba7a7e4fa58a",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-nativegeocoder/-/cordova-plugin-nativegeocoder-3.1.2.tgz",
+    "unpackedSize": 36618
+  },
+  "gitHead": "e6b78b337df0a6ea08a3d343075803a35755a35f",
+  "homepage": "https://github.com/sebastianbaar/cordova-plugin-nativegeocoder#readme",
+  "keywords": [
+    "cordova-android",
+    "cordova-ios",
+    "ecosystem:cordova",
+    "geocoder",
+    "geocoding",
+    "location"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sebastianbaar",
+      "email": "seb.baar@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-nativegeocoder",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianbaar/cordova-plugin-nativegeocoder.git"
+  },
+  "version": "3.1.2"
+}
